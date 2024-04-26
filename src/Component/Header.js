@@ -16,7 +16,7 @@ const Header = () => {
                         <div className='px-lg-4'>
                             <div className='h-40 w-full bg-white px-lg-5'>
                                 <div className='text-start px-lg-5'>
-                                    <img src="../../Images/yojna-main.jpg" style={{ height: "65px", maxWidth: "100%" }} /> {/* Added maxWidth: "100%" */}
+                                    <img src="../../Images/yojna-main.jpg" style={{ height: "65px", maxWidth: "100%" }} alt='shopping complex' /> {/* Added maxWidth: "100%" */}
                                 </div>
                             </div>
                         </div>
@@ -27,20 +27,14 @@ const Header = () => {
                                 <li className=' ps-lg-5 d-flex justify-content-center pt-3 '>
                                    
                                     <a href="tel:9811750130" className="text-decoration-none ">
-                                        +919811750130
+                                        +91965407243
                                     </a>
                                     <span className='d-none d-sm-block   '>/</span><a href="tel:9811750130" className="text-decoration-none d-none d-sm-block  ">
-                                        +91 9811750130
+                                        +919811750130
                                     </a>
 
                                 </li>
-                                <li className='d-none d-sm-block text-center ps-5'>
-                                   
-                                    <a href="mailto:info@shoppingcomplexdelhi.com" className="text-decoration-none">
-                                        <i className="fa fa-envelope " aria-hidden="true" />
-                                        info@shoppingcomplexdelhi.com
-                                    </a>
-                                </li>
+                               
                                 <li className='d-none d-sm-block text-center ps-5'>
                                   
                                     <a href="https://www.delhishoppingcomplex.com" className="text-decoration-none">
@@ -49,9 +43,9 @@ const Header = () => {
                                     </a>
                                     <span className='animate'>
                                   
-                                        <a href="#" className="text-decoration-none inline-flex items-center animate-blink">
+                                        <a href="/" className="text-decoration-none inline-flex items-center animate-blink">
                                             <i className="fa fa-user-circle" aria-hidden="true"></i>
-                                            <span>Registration Closed</span>
+                                            <span className='' style={{color:"red"}}>Registration Open</span>
                                         </a>
                                     </span>
                                 </li>

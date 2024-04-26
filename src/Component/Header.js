@@ -62,8 +62,8 @@ const Header = () => {
                         <p className='py-2 mb-0'><span>Pahle Dukan Phir Makaan Yojana(PDPMY)  | </span>
                             <span>ATTENTION REGISTRATION OPEN !!!! दिल्ली में अपनी दुकान बुक करें </span>
                             <span> *** 40 % कोटा महिलाओं एवं वरिष्ठ नागरिकों के लिये आरक्षित है। </span>
-                            <span> *** UNIT Allocation DATE & TIME 08-03-2024 16:00:00</span>
-                            <span> *** LAST DATE & TIME OF APPLICATION 07-03-2024 23:59:00</span>
+                            {/* <span> *** UNIT Allocation DATE & TIME 08-03-2024 16:00:00</span> */}
+                            {/* <span> *** LAST DATE & TIME OF APPLICATION 07-03-2024 23:59:00</span> */}
                             <span> *** Registration Amount is Fully Refundable for Unsuccessful Applicants Within 30 Days</span></p>
                     </marquee>
                 </div>

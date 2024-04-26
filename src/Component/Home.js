@@ -332,7 +332,7 @@ const Home = () => {
               <iframe
                 width="100%"
                 height={353}
-                src="https://www.youtube.com/embed/LzZfRl1CKMc?si=YVhfcY3t_ErG8WJ6"
+                src="https://www.youtube.com/embed/T6gTKiKnWNs?si=pkGUZFpUTk4z_row"
                 // src="https://www.youtube.com/watch?v=T6gTKiKnWNs"
                 title="YouTube video player"
                 frameBorder={0}
@@ -398,32 +398,32 @@ const Home = () => {
                       />
                       PROJECT NAME : Delhi Shopping Complex
                     </p>
-                    <p style={{}}>
-                      <i
-                        className="fa fa-calendar"
-                        aria-hidden="true"
-                        style={{ color: "#4285f4" }}
-                      />
-                      Online Application Start Date &amp; Time : 28-02-2024
-                      08:00:00
-                    </p>
-                    <p style={{}}>
-                      <a
-                        className="fa fa-calendar"
-                        aria-hidden="true"
-                        style={{ color: "#4285f4" }}
-                      />
-                      Online Application End Date &amp; Time : 07-03-2024
-                      23:59:00
-                    </p>
-                    <p style={{}}>
-                      <a
-                        className="fa fa-calendar"
-                        aria-hidden="true"
-                        style={{ color: "#4285f4" }}
-                      />
-                      Unit Allocation Date &amp; Time : 08-03-2024 16:00:00
-                    </p>
+                    // <p style={{}}>
+                    //   <i
+                    //     className="fa fa-calendar"
+                    //     aria-hidden="true"
+                    //     style={{ color: "#4285f4" }}
+                    //   />
+                    //   Online Application Start Date &amp; Time : 28-02-2024
+                    //   08:00:00
+                    // </p>
+                    // <p style={{}}>
+                    //   <a
+                    //     className="fa fa-calendar"
+                    //     aria-hidden="true"
+                    //     style={{ color: "#4285f4" }}
+                    //   />
+                    //   Online Application End Date &amp; Time : 07-03-2024
+                    //   23:59:00
+                    // </p>
+                    // <p style={{}}>
+                    //   <a
+                    //     className="fa fa-calendar"
+                    //     aria-hidden="true"
+                    //     style={{ color: "#4285f4" }}
+                    //   />
+                    //   Unit Allocation Date &amp; Time : 08-03-2024 16:00:00
+                    // </p>
                     <p style={{}}>
                       <a
                         className="fa fa-calendar"

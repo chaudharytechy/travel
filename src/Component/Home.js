@@ -80,7 +80,7 @@ const Home = () => {
             <img
               src="../../Images/pdpmy.jpg"
               className="imgbanner"
-              style={{ height: "369px" }}
+              style={{ height: "auto" }}
               alt="pahle ghar fir makan yojna"
             />
           </div>

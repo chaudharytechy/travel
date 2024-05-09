@@ -614,23 +614,39 @@ const Home = () => {
                 />
                 PROJECT NAME : Delhi Shopping Complex
               </p>
-           
-              {/* <p style={{}}>
+              <p style={{}}>
                 <a
                   className="fa fa-calendar"
                   aria-hidden="true"
                   style={{ color: "#4285f4" }}
                 />
-                Online Application End Date &amp; Time : 07-03-2024 23:59:00
-              </p> */}
-              {/* <p style={{}}>
+               Investment Starts From &amp; 32.46 LACS*
+              </p>
+              <p style={{}}>
                 <a
                   className="fa fa-calendar"
                   aria-hidden="true"
                   style={{ color: "#4285f4" }}
                 />
-                Unit Allocation Date &amp; Time : 08-03-2024 16:00:00
-              </p> */}
+              Registration Starting from &amp; Time : 01-June-2024 16:00:00
+              </p>
+              
+              <p style={{}}>
+                <a
+                  className="fa fa-calendar"
+                  aria-hidden="true"
+                  style={{ color: "#4285f4" }}
+                />
+               Last Date Of Registration &amp; Time : 12-June-2024 23:59:00
+              </p>
+              <p style={{}}>
+                <a
+                  className="fa fa-calendar"
+                  aria-hidden="true"
+                  style={{ color: "#4285f4" }}
+                />
+                Unit Allocation Date &amp; Time : 16-June-2024 16:00:00
+              </p>
               <p style={{}}>
                 <a
                   className="fa fa-calendar"

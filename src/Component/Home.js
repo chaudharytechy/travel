@@ -359,12 +359,7 @@ const Home = () => {
           <div className="row">
             <div className="col-1"></div>
             <div className="col">
-              <div className=" d-flex  ">
-                <button className="">CURRENT(1)</button>
-                <button className="">CLOSED</button>
-                <button className="">UPCOMING</button>
-                <button className="">ALL</button>
-              </div>
+              
             </div>
             <div className="col-1"></div>
           </div>
@@ -398,7 +393,27 @@ const Home = () => {
                       />
                       PROJECT NAME : Delhi Shopping Complex
                     </p>
-                   
+                    <p >
+               
+               Investment Starts From &amp; 32.46 LACS*
+              </p>
+              <p >
+               
+              Registration Starting from &amp; Time : 01-June-2024 16:00:00
+              </p>
+              
+              <p >
+                <a
+                  className="fa fa-calendar"
+                  aria-hidden="true"
+                  style={{ color: "#4285f4" }}
+                />
+               Last Date Of Registration &amp; Time : 12-June-2024 23:59:00
+              </p>
+              <p >
+               
+                Unit Allocation Date &amp; Time : 16-June-2024 16:00:00
+              </p>
                     <p style={{}}>
                       <a
                         className="fa fa-calendar"
@@ -603,35 +618,22 @@ const Home = () => {
             <div style={{ width: "60%", borderRight: "1px solid #ccc" }}>
               <p style={{ fontWeight: "bold" }}>1) Project : DLRERA2018P0013</p>
               <p style={{ fontWeight: "bold" }}>
-                Application invited for Delhi Shopping Complex
+                Application invited for Delhi Shopping Complex hjsdhkwfhkq
               </p>
-              <p style={{}}>
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                  href=""
-                />
+              <p >
+  
                 PROJECT NAME : Delhi Shopping Complex
               </p>
-              <p style={{}}>
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                />
+              <p >
+               
                Investment Starts From &amp; 32.46 LACS*
               </p>
-              <p style={{}}>
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                />
+              <p >
+               
               Registration Starting from &amp; Time : 01-June-2024 16:00:00
               </p>
               
-              <p style={{}}>
+              <p >
                 <a
                   className="fa fa-calendar"
                   aria-hidden="true"
@@ -639,28 +641,16 @@ const Home = () => {
                 />
                Last Date Of Registration &amp; Time : 12-June-2024 23:59:00
               </p>
-              <p style={{}}>
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                />
+              <p >
+               
                 Unit Allocation Date &amp; Time : 16-June-2024 16:00:00
               </p>
-              <p style={{}}>
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                />
+              <p>
+               
                 Colonizer : Raheja Developers Limited in PPP with DDA
               </p>
-              <p style={{}}>
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                />
+              <p >
+              
                 LOCATION : Delhi Shopping Complex, NEW DELHI-110008(INDIA)
               </p>
             </div>

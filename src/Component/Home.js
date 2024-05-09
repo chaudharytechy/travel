@@ -629,6 +629,7 @@ const Home = () => {
                Investment Starts From &amp; 32.46 LACS*
               </p>
               <p style={{}}>
+              
                 <a
                   className="fa fa-calendar"
                   aria-hidden="true"

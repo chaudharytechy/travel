@@ -623,11 +623,7 @@ const Home = () => {
                Investment Starts From &amp; 32.46 LACS*
               </p>
               <p style={{}}>
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                />
+                <a className="fa fa-calendar" aria-hidden="true" style={{ color: "#4285f4" }} />
               Registration Starting from &amp; Time : 01-June-2024 16:00:00
               </p>
               

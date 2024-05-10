@@ -78,7 +78,7 @@ const Home = () => {
           <div className="col-1"></div>
           <div className="col-10">
             <img
-              src="../../Images/pdpmy.jpg"
+              src="../../Images/Delhi Shopping complex Phase 2.0 banner.jpg"
               className="imgbanner"
               style={{ height: "auto" }}
               alt="pahle ghar fir makan yojna"
@@ -89,6 +89,8 @@ const Home = () => {
       </div>
 
       <div className="text-center w-100 my-5">
+      <p className="text-danger" style={{fontWeight: "bold",fontSize: 20,marginTop:"-22px"}}>Registration Amount <span className="" style={{fontWeight:"bold",fontSize: 30}}>₹ 31000 /-</span></p>
+        <p className="text-danger" style={{fontWeight: "bold",fontSize: 20,}}>Area Options 100/40/50/150 SQ.FT (in multiples)</p>
         <a
           className="button apply_btn"
           type="button"
@@ -489,7 +491,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href="../../Pdf/Application Form.pdf"
+                      href=""
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -502,7 +504,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href="../../Pdf/brochure.pdf"
+                      href=""
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -515,7 +517,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href="../../Pdf/clusterplan.pdf"
+                      href=""
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -541,7 +543,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href="../../Pdf/1st-FLOOR-PLAN.pdf"
+                      href="../../Pdf/first-floor-plan.pdf"
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -554,7 +556,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href="../../Pdf/2nd-FLOOR-PLAN.pdf"
+                      href="../../Pdf/second-floor-plan.pdf"
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -567,7 +569,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href="../../Pdf/3rd-FLOOR-PLAN.pdf"
+                      href="../../Pdf/third-floor-plan.pdf"
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -602,7 +604,7 @@ const Home = () => {
           className="w3-container w3-border city"
           style={{ display: "none" }}
         ></div>
-        <div
+        {/* <div
           id="ALL"
           className="w3-container w3-border city"
           style={{ display: "none" }}
@@ -782,7 +784,7 @@ const Home = () => {
               <br />
             </div>
           </div>
-        </div>
+        </div> */}
       </>
 
       <div className="container-fluid mt-5">

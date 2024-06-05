@@ -4,16 +4,9 @@ const Home = () => {
   const [data, setData] = useState({
     salutation: "",
     name: "",
-    surname: "",
+    lastname: "",
     email: "",
-    dob: "",
-    pan: "",
-    contact: "",
-    city: "",
-    state: "",
-    address: "",
-    pincode: "",
-    ofContact: "",
+    mobile: "",
     floor: "",
     area: "",
     unit: "",
@@ -22,23 +15,45 @@ const Home = () => {
   const resetData = () => {
     setData({
       salutation: "",
-      name: "",
-      surname: "",
-      email: "",
-      dob: "",
-      pan: "",
-      contact: "",
-      city: "",
-      state: "",
-      address: "",
-      pincode: "",
-      ofContact: "",
-      floor: "",
-      area: "",
-      unit: "",
-      paymentPlan: "",
+    name: "",
+    lastname: "",
+    email: "",
+    mobile: "",
+    floor: "",
+    area: "",
+    unit: "",
+    paymentPlan: "",
     });
   };
+  const [form, setForm] = useState({
+    floor: "selected floor",
+    area: "",
+  });
+
+  const handleForm = (e, field) => {
+    const value = e.target.value;
+    setForm((prevState) => ({
+      ...prevState,
+      [field]: value,
+      ...(field === "floor" && { area: getAreaByFloor(value) }),
+    }));
+  };
+
+  const getAreaByFloor = (floor) => {
+    switch (floor) {
+      case "ground floor":
+        return "100 sq.ft";
+      case "first floor":
+        return "40 sq.ft";
+      case "second floor":
+        return "50 sq.ft";
+      case "third floor":
+        return "";
+      default:
+        return "";
+    }
+  };
+
   const handlevalue = (e, name) => {
     const newvalue = e.target.value;
 
@@ -820,7 +835,7 @@ const Home = () => {
                   aria-label="Close"
                 />
               </div>
-              <div className="modal-body">
+              {/* <div className="modal-body">
                 <form>
                   <div className="container">
                     <div className="row">
@@ -1134,6 +1149,221 @@ const Home = () => {
                   >
                     Submit
                   </button>
+                </form>
+              </div> */}
+              <div className="modal-body">
+                <form>
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-5">
+                        <h4>Personal Details</h4>
+                        <div className="form-group ">
+                          <label htmlFor="pleaseselect" className="my-2">
+                            Please Select
+                          </label>
+                          <select
+                            className="form-control"
+                            id="pleaseselect"
+                            name="salutation"
+                            value={data.salutation}
+                            onChange={(e) => handlevalue(e, "salutation")}
+                          >
+                            <option value="mr">Mr.</option>
+                            <option value="ms">Ms.</option>
+                            <option value="mrs">Mrs.</option>
+                            <option value="m/s">M/S.</option>
+                          </select>
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="name" className="my-2">
+                            First Name
+                          </label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            id="name"
+                            placeholder="Enter Your Name"
+                            name="name"
+                            value={data.name}
+                            onChange={(e) => handlevalue(e, "name")}
+                          />
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="lastname" className="my-2">
+                            LastName
+                          </label>
+                          <input
+                            type="text"
+                            className="form-control"
+                            id="lastname"
+                            placeholder="Enter Your Last Name"
+                            name="lastname"
+                            value={data.lastname}
+                            onChange={(e) => handlevalue(e, "lastname")}
+                          />
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="inputEmail4" className="my-2">
+                            Email
+                          </label>
+                          <input
+                            type="email"
+                            className="form-control"
+                            id="inputEmail4"
+                            placeholder="Email"
+                            name="email"
+                            value={data.email}
+                            onChange={(e) => handlevalue(e, "email")}
+                          />
+                        </div>
+                        <div className="form-group">
+                          <label htmlFor="mobile" className="my-2">
+                            Mobile
+                          </label>
+                          <input
+                            type="number"
+                            className="form-control"
+                            id="mobile"
+                            placeholder="Mobile"
+                            name="mobile"
+                            pattern="[0-9]*" 
+                            maxlength="10"
+                            value={data.mobile}
+                            onChange={(e) => handlevalue(e, "mobile")}
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-md-7">
+                        <h3 className="mt-4">Registration Form</h3>
+
+                        <div className="form-group row">
+                          <label
+                            htmlFor="towerfloor"
+                            className="col-sm-4 col-form-label "
+                          >
+                            Tower/Floor
+                          </label>
+                          <div className="col-sm-8">
+                            <select
+                              className="form-control my-2"
+                              id="towerfloor"
+                              name="floor"
+                              value={form.floor}
+                              onChange={(e) => handleForm(e, "floor")}
+                            >
+                              <option value="selected floor">
+                                Select Floor
+                              </option>
+                              <option value="ground floor">Ground Floor</option>
+                              <option value="first floor">First Floor</option>
+                              <option value="second floor">Second Floor</option>
+                              <option value="third floor">Third Floor</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div className="form-group row">
+                          <label
+                            htmlFor="propertyselected"
+                            className="col-sm-4 col-form-label"
+                          >
+                            Property Selected
+                          </label>
+                          <div className="col-sm-8">
+                            <select
+                              className="form-control my-2"
+                              id="propertyselected"
+                              name="area"
+                              value={form.area}
+                              onChange={(e) => handleForm(e, "area")}
+                            >
+                              <option value="100 sq.ft">100 Sq.Ft</option>
+                              <option value="40 sq.ft">40 Sq.Ft</option>
+                              <option value="50 sq.ft">50 Sq.Ft</option>
+                            
+                            </select>
+                          </div>
+                        </div>
+
+                        <div className="form-group row">
+                          <label
+                            htmlFor="numberunits"
+                            className="col-sm-4 col-form-label"
+                          >
+                            Number Units
+                          </label>
+                          <div className="col-sm-8">
+                            <select
+                              className="form-control my-2"
+                              id="numberunits"
+                              name="unit"
+                              value={data.unit}
+                              onChange={(e) => handlevalue(e, "unit")}
+                            >
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div className="form-group row">
+                          <label
+                            htmlFor="paymentplan"
+                            className="col-sm-4 col-form-label"
+                          >
+                            Payment Plan
+                          </label>
+                          <div className="col-sm-8">
+                            <select
+                              className="form-control my-2"
+                              id="paymentplan"
+                              name="paymentPlan"
+                              value={data.paymentPlan}
+                              onChange={(e) => handlevalue(e, "paymentPlan")}
+                            >
+                              <option value="constructionlinkedplan">
+                                Construction Linked Plan (CLP)
+                              </option>
+                              <option value="downpaymentplan">
+                                Down Payment Plan (DPP)
+                              </option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div className="form-group row">
+                          <div className="col-sm-8 offset-sm-4 mt-4">
+                            <a
+                              href="../../Pdf/pricelist.pdf"
+                              style={{ color: "#337ab7" }}
+                              target="_blank"
+                              type="button"
+                              className="btn btn-danger"
+                            >
+                              <span className="text-white ">
+                                View Payment Plan
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="mt-4"
+                      style={{ alignItems: "center", justifyContent: "center" }}
+                    >
+                      <button
+                        type="button"
+                        className={`btn ${buttonColor} px-5`}
+                        onClick={handleSubmit}
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
                 </form>
               </div>
             </div>

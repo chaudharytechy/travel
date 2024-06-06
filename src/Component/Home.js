@@ -93,7 +93,7 @@ const Home = () => {
           <div className="col-1"></div>
           <div className="col-10">
             <img
-              src="../../Images/Delhi Shopping complex Phase 2.0 banner.jpg"
+              src="../../Images/mainbannerComplex.jpg"
               className="imgbanner"
               style={{ height: "auto" }}
               alt="pahle ghar fir makan yojna"
@@ -131,7 +131,7 @@ const Home = () => {
       <div className="container mb-5">
         <div className="row">
           <div className="col-sm-6">
-            <h3>Overview of Delhi Shopping Complex</h3>
+            <h3>Overview of Delhi Mall Complex Phase-2</h3>
             <br />
             <p>
               Located in the heart of our capital, on Main Patel Nagar Road,
@@ -400,7 +400,7 @@ const Home = () => {
                       1) Project : DLRERA2018P0013
                     </p>
                     <p style={{ fontWeight: "bold" }}>
-                      Application invited for Delhi Shopping Complex
+                      Application invited for Delhi Mall Complex Phase-2
                     </p>
                     <p style={{}}>
                       <a
@@ -408,7 +408,7 @@ const Home = () => {
                         aria-hidden="true"
                         style={{ color: "#4285f4" }}
                       />
-                      PROJECT NAME : Delhi Shopping Complex
+                      PROJECT NAME : Delhi Mall Complex Phase-2
                     </p>
                     <p >
                
@@ -416,7 +416,7 @@ const Home = () => {
               </p>
               <p >
                
-              Registration Starting from &amp; Time : 01-June-2024 16:00:00
+              Registration Starting from &amp; Time : 05-June-2024 08:00:00
               </p>
               
               <p >
@@ -425,11 +425,11 @@ const Home = () => {
                   aria-hidden="true"
                   style={{ color: "#4285f4" }}
                 />
-               Last Date Of Registration &amp; Time : 12-June-2024 23:59:00
+               Last Date Of Registration &amp; Time : 20-June-2024 23:59:00
               </p>
               <p >
                
-                Unit Allocation Date &amp; Time : 16-June-2024 16:00:00
+                Unit Allocation Date &amp; Time : 23-June-2024 16:00:00
               </p>
                     <p style={{}}>
                       <a
@@ -445,7 +445,7 @@ const Home = () => {
                         aria-hidden="true"
                         style={{ color: "#4285f4" }}
                       />
-                      LOCATION : Delhi Shopping Complex, NEW DELHI-110008(INDIA)
+                      LOCATION : Delhi Mall Complex, NEW DELHI-110008(INDIA)
                     </p>
                   </div>
                   <div

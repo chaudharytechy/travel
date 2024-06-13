@@ -26,8 +26,8 @@ const Header = () => {
                             <ul className="list-unstyled text-sm-start"> {/* Added text-sm-start class */}
                                 <li className=' ps-lg-5 d-flex justify-content-center pt-3 '>
                                    
-                                    <a href="tel:9654072423" className="text-decoration-none ">
-                                        +919654072423
+                                    <a href="tel:8527134491" className="text-decoration-none ">
+                                        +918527134491
                                     </a>
                                     <span className='d-none d-sm-block   '>/</span><a href="tel:9811750130" className="text-decoration-none d-none d-sm-block  ">
                                         +919811750130

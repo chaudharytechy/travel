@@ -468,7 +468,7 @@ const Home = () => {
                         padding: "8px",
                         borderRadius: "4px",
                       }}
-                      href="#"
+                      href="https://delhimallcomplex.com/poc/S12#registration_form"
                     >
                       Registration Open
                     </a>

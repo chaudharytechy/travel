@@ -43,7 +43,7 @@ const Header = () => {
                                     </a>
                                     <span className='animate'>
                                   
-                                        <a href="/" className="text-decoration-none inline-flex items-center animate-blink">
+                                        <a href="https://delhimallcomplex.com/poc/S12#registration_form" className="text-decoration-none inline-flex items-center animate-blink">
                                             <i className="fa fa-user-circle" aria-hidden="true"></i>
                                             <span className='' style={{color:"red"}}>Registration Open</span>
                                         </a>

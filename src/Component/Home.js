@@ -110,8 +110,8 @@ const Home = () => {
           className="button apply_btn"
           type="button"
           class="btn btn-primary"
-          data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop"
+          // data-bs-toggle="modal"
+          // data-bs-target="#staticBackdrop"
           style={{
             width: 200,
             color: "white",
@@ -122,7 +122,7 @@ const Home = () => {
             borderRadius: "4px",
             border: "none",
           }}
-          href="/"
+          href="https://delhimallcomplex.com/poc/S12#registration_form"
         >
           Registration Open
         </a>

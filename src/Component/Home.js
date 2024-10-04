@@ -128,7 +128,7 @@ const Home = () => {
         </a>
       </div>
 
-      <div className="container mb-5">
+      <div className="container my-3">
         <div className="row">
           <div className="col-sm-6">
             <h3>Overview of Delhi Mall Complex</h3>
@@ -160,13 +160,13 @@ const Home = () => {
               Level Car Parking.
             </p>
           </div>
-          <div className="col-sm-6 mb-2">
+          <div className="col-sm-6 ">
             <h3>Our Location</h3>
             <br />
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7002.354249931301!2d77.14782171458246!3d28.65441470000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03a77d14a199%3A0x41aefa31e1b48f7a!2sDelhi%20Mall!5e0!3m2!1sen!2sin!4v1708863520088!5m2!1sen!2sin"
               width="100%"
-              height="100%"
+              height="98%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
@@ -174,14 +174,12 @@ const Home = () => {
               title="pahle ghar fir makan yojna"
             />
           </div>
-          <div className="col-sm-12">
-          
-          </div>
+         
         </div>
       </div>
 
-      <>
-        <div className="container py-1">
+      < >
+        <div className="container  ">
           <div className="row">
             <div className="col-sm-12">
               {" "}

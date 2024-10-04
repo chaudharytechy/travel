@@ -93,7 +93,7 @@ const Home = () => {
           <div className="col-1"></div>
           <div className="col-10">
             <img
-              src="../../Images/mainbannerComplex.jpg"
+              src="../../Images/baneer.jpg"
               className="imgbanner"
               style={{ height: "auto" }}
               alt="pahle ghar fir makan yojna"
@@ -105,7 +105,7 @@ const Home = () => {
 
       <div className="text-center w-100 my-5">
       <p className="text-danger" style={{fontWeight: "bold",fontSize: 20,marginTop:"-22px"}}>Registration Amount <span className="" style={{fontWeight:"bold",fontSize: 30}}>₹ 31000 /-</span></p>
-        <p className="text-danger" style={{fontWeight: "bold",fontSize: 20,}}>Area Options 100/40/50/150 SQ.FT (in multiples)</p>
+        <p className="text-danger" style={{fontWeight: "bold",fontSize: 20,}}>Area Options 50/97/150 SQ.FT (in multiples)</p>
         <a
           className="button apply_btn"
           type="button"
@@ -131,7 +131,7 @@ const Home = () => {
       <div className="container mb-5">
         <div className="row">
           <div className="col-sm-6">
-            <h3>Overview of Delhi Mall Complex Phase-2</h3>
+            <h3>Overview of Delhi Mall Complex</h3>
             <br />
             <p>
               Located in the heart of our capital, on Main Patel Nagar Road,
@@ -349,7 +349,7 @@ const Home = () => {
               <iframe
                 width="100%"
                 height={353}
-                src="https://www.youtube.com/embed/T6gTKiKnWNs?si=pkGUZFpUTk4z_row"
+                src="https://www.youtube.com/embed/msl-2QRXwaI?si=hxT6xEzvOtdMOVzR"
                 // src="https://www.youtube.com/watch?v=T6gTKiKnWNs"
                 title="YouTube video player"
                 frameBorder={0}
@@ -397,10 +397,10 @@ const Home = () => {
                 >
                   <div style={{ width: "60%", borderRight: "1px solid #ccc" }}>
                     <p style={{ fontWeight: "bold" }}>
-                      1) Project : DLRERA2018P0013
+                    1) Project : DLRERA2018P0013
                     </p>
                     <p style={{ fontWeight: "bold" }}>
-                      Application invited for Delhi Mall Complex Phase-2
+                    Application invited for DDA Dwara Manyata prapt Pre Leased Commercial Space
                     </p>
                     <p style={{}}>
                       <a
@@ -408,15 +408,15 @@ const Home = () => {
                         aria-hidden="true"
                         style={{ color: "#4285f4" }}
                       />
-                      PROJECT NAME : Delhi Mall Complex Phase-2
+                      PROJECT NAME : DDA Dwara Manyata prapt Pre Leased Commercial Space
                     </p>
                     <p >
                
-               Investment Starts From &amp; 32.46 LACS*
+                    Online Application Start Date & Time : 3rd October 2024 08:00 AM
               </p>
               <p >
                
-              Registration Starting from &amp; Time : 05-June-2024 08:00:00
+              Online Application End Date & Time : 11th October 2024 11:59:00
               </p>
               
               <p >
@@ -425,20 +425,13 @@ const Home = () => {
                   aria-hidden="true"
                   style={{ color: "#4285f4" }}
                 />
-               Last Date Of Registration &amp; Time : 20-June-2024 23:59:00
+               Unit Allocation Date & Time : 13th October 2024
               </p>
               <p >
                
-                Unit Allocation Date &amp; Time : 23-June-2024 16:00:00
+              Colonizer : Raheja Developers Limited in PPP with DDA
               </p>
-                    <p style={{}}>
-                      <a
-                        className="fa fa-calendar"
-                        aria-hidden="true"
-                        style={{ color: "#4285f4" }}
-                      />
-                      Colonizer : Raheja Developers Limited in PPP with DDA
-                    </p>
+                   
                     <p style={{}}>
                       <a
                         className="fa fa-calendar"
@@ -506,7 +499,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href=""
+                      href="../../Pdf/ApplicationForm.pdf"
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -519,7 +512,7 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href=""
+                      href="../../Pdf/brochure.pdf"
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
@@ -532,65 +525,20 @@ const Home = () => {
                       style={{ color: "red" }}
                     />{" "}
                     <a
-                      href=""
+                      href="../../Pdf/clusterplan.pdf"
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
                       Scheme Cluster Plan
                     </a>
                     <br />
-                    <i
-                      className="far fa-file-pdf"
-                      aria-hidden="true"
-                      style={{ color: "red" }}
-                    />{" "}
                     <a
-                      href="../../Pdf/GROUND-FLOOR-PLAN.pdf"
+                      href="../../Pdf/FAQ.pdf"
                       style={{ color: "#337ab7" }}
                       target="_blank"
                     >
-                      Ground Floor Plan
+                      FAQs
                     </a>
-                    <br />
-                    <i
-                      className="far fa-file-pdf"
-                      aria-hidden="true"
-                      style={{ color: "red" }}
-                    />{" "}
-                    <a
-                      href="../../Pdf/first-floor-plan.pdf"
-                      style={{ color: "#337ab7" }}
-                      target="_blank"
-                    >
-                      1st Floor Plan
-                    </a>
-                    <br />
-                    <i
-                      className="far fa-file-pdf"
-                      aria-hidden="true"
-                      style={{ color: "red" }}
-                    />{" "}
-                    <a
-                      href="../../Pdf/second-floor-plan.pdf"
-                      style={{ color: "#337ab7" }}
-                      target="_blank"
-                    >
-                      2nd Floor Plan
-                    </a>
-                    <br />
-                    <i
-                      className="far fa-file-pdf"
-                      aria-hidden="true"
-                      style={{ color: "red" }}
-                    />{" "}
-                    <a
-                      href="../../Pdf/third-floor-plan.pdf"
-                      style={{ color: "#337ab7" }}
-                      target="_blank"
-                    >
-                      3rd Floor Plan
-                    </a>
-                    <br />
                   </div>
                 </div>
               </div>

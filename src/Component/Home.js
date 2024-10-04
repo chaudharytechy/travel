@@ -15,14 +15,14 @@ const Home = () => {
   const resetData = () => {
     setData({
       salutation: "",
-    name: "",
-    lastname: "",
-    email: "",
-    mobile: "",
-    floor: "",
-    area: "",
-    unit: "",
-    paymentPlan: "",
+      name: "",
+      lastname: "",
+      email: "",
+      mobile: "",
+      floor: "",
+      area: "",
+      unit: "",
+      paymentPlan: "",
     });
   };
   const [form, setForm] = useState({
@@ -104,8 +104,8 @@ const Home = () => {
       </div>
 
       <div className="text-center w-100 my-5">
-      <p className="text-danger" style={{fontWeight: "bold",fontSize: 20,marginTop:"-22px"}}>Registration Amount <span className="" style={{fontWeight:"bold",fontSize: 30}}>₹ 31000 /-</span></p>
-        <p className="text-danger" style={{fontWeight: "bold",fontSize: 20,}}>Area Options 50/97/150 SQ.FT (in multiples)</p>
+        <p className="text-danger" style={{ fontWeight: "bold", fontSize: 20, marginTop: "-22px" }}>Registration Amount <span className="" style={{ fontWeight: "bold", fontSize: 30 }}>₹ 31000 /-</span></p>
+        <p className="text-danger" style={{ fontWeight: "bold", fontSize: 20, }}>Area Options 50/97/150 SQ.FT (in multiples)</p>
         <a
           className="button apply_btn"
           type="button"
@@ -134,49 +134,24 @@ const Home = () => {
             <h3>Overview of Delhi Mall Complex</h3>
             <br />
             <p>
-              Located in the heart of our capital, on Main Patel Nagar Road,
-              Delhi Shopping Complex is slated to become Delhi’s No.1 Retail and
-              Shopping Destination.
+              Delhi Mall Complex, as a part of a Public-Private Partnership with DDA, the Government of India, proudly launches DDA Dwara Manyata Prapt Pre Leased Commercial Scheme
             </p>
             <p>
-              Spread over 3 lac sq ft, and housing Premium Brands like Inox-PVR
-              cinemas , Shoppers Stop, Haldirams and many more, it is already
-              more than 50% built and leased out and shall be inaugurated soon.
-              The Rentals here are amongst the highest in the country owing to
-              the dense HNI residential catchment of areas like Kirti Nagar,
-              Patel Nagar, Punjabi Bagh, Rajendra Nagar, Pitampura, Model Town,
-              Karol Bagh and many more.
+              The project is located in the heart of Central Delhi, on Pusa Road, in Patel Nagar, a major residential locality known for its social infrastructure and amenities. The mall is part of The Leela Sky Villas complex, which is the tallest planned tower in Delhi, standing more than 2.5 times taller than the Qutub Minar.
             </p>
             <p>
-              It is not every day that an opportunity like this presents itself
-              where a Grade A rental asset can be purchased for such a low
-              investment value.
+              The Delhi Mall Complex is designed to be the most happening commercial building in Central/West Delhi. It is strategically located in the middle of a highly populated residential area, and high footfall is expected in the future as there are not many shopping malls within a 5 km radius. The mall is well connected through public transport and the metro, with the nearest metro stations being Shadipur and Kirti Nagar.
             </p>
             <p>
               The project is part of a larger development with over 2800 flats,
-              120 super luxury apartments in a hi-rise as well as the Shopping
-              Complex. The shopping complex has Retail on Ground, First and
-              Second Floors with dedicated anchor stores and cafes on all the
-              floors. The third floor is dedicated to Food Court, Restaurants
-              and Children’s Entertainment while the Fourth Floor is dedicated
-              to Inox-PVR cinemas.
+              It is close to highly populated residential catchment areas like Kirti Nagar, Patel Nagar, Punjabi Bagh, Rajendra Nagar, Pitampura, Model Town, Karol Bagh and many more. This complex is under construction and 60% built and shall be inaugurated soon. Once the complex is ready, one can expect good rental income and capital appreciation as expression of interest has been received from various national and international brands.
             </p>
-          </div>
-          <div className="col-sm-6">
-            <h3>Our Location</h3>
-            <br />
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7002.354249931301!2d77.14782171458246!3d28.65441470000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03a77d14a199%3A0x41aefa31e1b48f7a!2sDelhi%20Mall!5e0!3m2!1sen!2sin!4v1708863520088!5m2!1sen!2sin"
-              width="100%"
-              height={530}
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="pahle ghar fir makan yojna"
-            />
-          </div>
-          <div className="col-sm-12">
+            <p>
+              Spanning over 3 lac Sq. Ft., the project boasts an array of premium brands like Inox-PVR cinemas, Shoppers Stop, Haldiram’s, and many more. The complex is thoughtfully designed, with retail on the Ground floor, and has dedicated anchor stores and cafes on the First and Second Floors. The third floor is dedicated to Food Court, Restaurants, and Children’s Entertainment, while the Fourth Floor is devoted to Inox-PVR cinemas.
+            </p>
+            <p>
+              The Delhi Shopping Complex benchmarks modern commercial infrastructure, boasting state-of-the-art amenities like Super Luxury Interiors, Lifts, Escalators, Power Back-Up, CCTV Cameras, Fire Fighting Equipment, 3 Level Basements, and Multi-Level Car Parking. The project is RERA approved with timelines till 2025.
+            </p>
             <p>
               The project is RERA approved with timelines till 2025. It is
               equipped with all the modern facilities and amenities, such as
@@ -185,11 +160,28 @@ const Home = () => {
               Level Car Parking.
             </p>
           </div>
+          <div className="col-sm-6 mb-2">
+            <h3>Our Location</h3>
+            <br />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7002.354249931301!2d77.14782171458246!3d28.65441470000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03a77d14a199%3A0x41aefa31e1b48f7a!2sDelhi%20Mall!5e0!3m2!1sen!2sin!4v1708863520088!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="pahle ghar fir makan yojna"
+            />
+          </div>
+          <div className="col-sm-12">
+          
+          </div>
         </div>
       </div>
 
       <>
-        <div className="container">
+        <div className="container py-1">
           <div className="row">
             <div className="col-sm-12">
               {" "}
@@ -376,7 +368,7 @@ const Home = () => {
           <div className="row">
             <div className="col-1"></div>
             <div className="col">
-              
+
             </div>
             <div className="col-1"></div>
           </div>
@@ -397,10 +389,10 @@ const Home = () => {
                 >
                   <div style={{ width: "60%", borderRight: "1px solid #ccc" }}>
                     <p style={{ fontWeight: "bold" }}>
-                    1) Project : DLRERA2018P0013
+                      1) Project : DLRERA2018P0013
                     </p>
                     <p style={{ fontWeight: "bold" }}>
-                    Application invited for DDA Dwara Manyata prapt Pre Leased Commercial Space
+                      Application invited for DDA Dwara Manyata prapt Pre Leased Commercial Space
                     </p>
                     <p style={{}}>
                       <a
@@ -411,27 +403,27 @@ const Home = () => {
                       PROJECT NAME : DDA Dwara Manyata prapt Pre Leased Commercial Space
                     </p>
                     <p >
-               
-                    Online Application Start Date & Time : 3rd October 2024 08:00 AM
-              </p>
-              <p >
-               
-              Online Application End Date & Time : 11th October 2024 11:59:00
-              </p>
-              
-              <p >
-                <a
-                  className="fa fa-calendar"
-                  aria-hidden="true"
-                  style={{ color: "#4285f4" }}
-                />
-               Unit Allocation Date & Time : 13th October 2024
-              </p>
-              <p >
-               
-              Colonizer : Raheja Developers Limited in PPP with DDA
-              </p>
-                   
+
+                      Online Application Start Date & Time : 3rd October 2024 08:00 AM
+                    </p>
+                    <p >
+
+                      Online Application End Date & Time : 11th October 2024 11:59:00
+                    </p>
+
+                    <p >
+                      <a
+                        className="fa fa-calendar"
+                        aria-hidden="true"
+                        style={{ color: "#4285f4" }}
+                      />
+                      Unit Allocation Date & Time : 13th October 2024
+                    </p>
+                    <p >
+
+                      Colonizer : Raheja Developers Limited in PPP with DDA
+                    </p>
+
                     <p style={{}}>
                       <a
                         className="fa fa-calendar"
@@ -1174,7 +1166,7 @@ const Home = () => {
                             id="mobile"
                             placeholder="Mobile"
                             name="mobile"
-                            pattern="[0-9]*" 
+                            pattern="[0-9]*"
                             maxlength="10"
                             value={data.mobile}
                             onChange={(e) => handlevalue(e, "mobile")}
@@ -1229,7 +1221,7 @@ const Home = () => {
                               <option value="100 sq.ft">100 Sq.Ft</option>
                               <option value="40 sq.ft">40 Sq.Ft</option>
                               <option value="50 sq.ft">50 Sq.Ft</option>
-                            
+
                             </select>
                           </div>
                         </div>

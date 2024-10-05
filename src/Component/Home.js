@@ -166,7 +166,7 @@ const Home = () => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7002.354249931301!2d77.14782171458246!3d28.65441470000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03a77d14a199%3A0x41aefa31e1b48f7a!2sDelhi%20Mall!5e0!3m2!1sen!2sin!4v1708863520088!5m2!1sen!2sin"
               width="100%"
-              height="98%"
+              height="90%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"

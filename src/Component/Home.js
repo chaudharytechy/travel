@@ -174,7 +174,6 @@ const Home = () => {
               title="pahle ghar fir makan yojna"
             />
           </div>
-         
         </div>
       </div>
 
